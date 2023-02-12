@@ -91,9 +91,9 @@ div.details {
     padding: 0.5rem 3rem 0.5rem 0.8rem;
   }
   .details input.skill {
-    margin: 0;
-    align-self: flex-start;
-    font-size: 0.8rem;
+    margin: 0.1rem;
+    /* align-self: flex-start; */
+    font-size: 0.6rem;
   }
   .btn {
     display: block;
