@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div form {
+  margin: 0 24rem;
+  /* margin: 0 auto; */
+  background-color: white;
+  padding: 1rem 6rem;
+  box-shadow: -1px 7px 30px rgba(199, 199, 199, 0.349);
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+label {
+  font-weight: 600;
+  text-align: left;
+  flex-grow: 1;
+  font-family: "Halant", serif;
+}
+input,
+select {
+  text-align: left;
+  color: #797979a9;
+  font-size: 0.6rem;
+  padding: 0.5rem 6rem 0.5rem 0.8rem;
+  border: 1px solid #82828291;
+  border-radius: 4px;
+  font-family: "Manrope", sans-serif;
+}
+h1 {
+  margin-bottom: 0.4rem;
+}
+select {
+  padding: 0.5rem 7.2rem 0.5rem 0.8rem;
+  text-align: left;
+}
+div.details {
+  display: flex;
+  justify-content: flex-end;
+  /* align-content: flex-end; */
+  margin: 0.9rem 0;
+  flex-wrap: wrap;
+}
+.details input.skill {
+  margin: 0 0.5rem;
+  align-self: flex-start;
+  font-family: "Manrope", sans-serif;
+}
+.btn {
+  border: none;
+  background-color: rgba(21, 94, 239, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  padding: 0.8rem 3rem;
+  margin-left: 11rem;
+  text-align: center;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(3, 3, 170, 0.87);
+}
+@media screen and (max-width: 1024px) {
+  div form {
+    margin: 1rem 13.4rem;
+    padding: 1.5rem 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  div form {
+    margin: 1rem 4.9rem;
+    padding: 1.5rem 6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  div form {
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+  }
+  input,
+  select {
+    padding: 0.5rem 2rem 0.5rem 0.8rem;
+  }
+  select {
+    padding: 0.5rem 3rem 0.5rem 0.8rem;
+  }
+  .details input.skill {
+    margin: 0 0.2rem;
+    align-self: flex-start;
+    font-size: 0.8rem;
+  }
+  .btn {
+    display: block;
+    margin: 0;
+  }
+}
