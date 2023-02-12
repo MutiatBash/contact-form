@@ -84,14 +84,14 @@ div.details {
     font-size: 0.8rem;
   }
   input,
-  select {
+  .college {
     padding: 0.5rem 2rem 0.5rem 0.8rem;
   }
   select {
     padding: 0.5rem 3rem 0.5rem 0.8rem;
   }
   .details input.skill {
-    margin: 0 0.2rem;
+    margin: 0;
     align-self: flex-start;
     font-size: 0.8rem;
   }
