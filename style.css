@@ -21,6 +21,7 @@ div form {
 }
 label {
   font-weight: 600;
+  font-size: 1.1rem;
   text-align: left;
   flex-grow: 1;
   font-family: "Halant", serif;
@@ -32,8 +33,8 @@ label {
 .inputs,
 .option {
   text-align: left;
-  color: #797979a9;
-  font-size: 0.6rem;
+  color: #6b6b6bce;
+  font-size: 0.7rem;
   padding: 0.5rem 6rem 0.5rem 0.8rem;
   border: 1px solid #82828291;
   border-radius: 4px;
@@ -43,21 +44,22 @@ h1 {
   margin-bottom: 0.4rem;
 }
 .option {
-  padding: 0.5rem 7.5rem 0.5rem 0.9rem;
+  padding: 0.5rem 7.1rem 0.5rem 0.9rem;
   text-align: left;
 }
 .details span {
   font-family: "Manrope", sans-serif;
+  font-size: 0.8rem;
 }
 div.details {
   display: flex;
   justify-content: flex-end;
   /* align-content: flex-end; */
-  margin: 0.9rem 0;
+  margin: 0.8rem 0;
   flex-wrap: wrap;
 }
 .details input.skill {
-  /* margin: 0 0.3rem; */
+  margin: 0 0.4rem;
   align-self: flex-start;
   font-family: "Manrope", sans-serif;
 }
@@ -66,7 +68,7 @@ div.details {
   background-color: rgba(21, 94, 239, 1);
   color: rgba(255, 255, 255, 1);
   border-radius: 3px;
-  padding: 0.8rem;
+  padding: 0.8rem 1rem;
   /* width: 14.2rem; */
   display: flex;
   flex-direction: column;
@@ -74,6 +76,7 @@ div.details {
   text-align: center;
   cursor: pointer;
   /* position: relative; */
+  margin-top: 0.8rem;
   margin-left: 33.7rem;
 }
 .btn:hover {
@@ -103,13 +106,26 @@ div.details {
     /* align-self: flex-start; */
     font-size: 0.8rem;
   }
+  .btn {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 500px) {
   div form {
     /* margin: 1rem; */
     width: 90%;
     padding: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+  div.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-content: flex-end; */
+    margin: 0.9rem 0;
+    flex-wrap: wrap;
   }
   input,
   .option {
@@ -122,7 +138,7 @@ div.details {
   .details span {
     margin: 0;
     /* align-self: flex-start; */
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .btn {
     display: block;
