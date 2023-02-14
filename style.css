@@ -25,6 +25,10 @@ label {
   flex-grow: 1;
   font-family: "Halant", serif;
 }
+.group {
+  display: flex;
+  justify-content: flex-start;
+}
 input,
 .option {
   text-align: left;
