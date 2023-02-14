@@ -29,7 +29,7 @@ label {
   display: flex;
   justify-content: flex-start;
 }
-input,
+.inputs,
 .option {
   text-align: left;
   color: #797979a9;
