@@ -52,7 +52,7 @@ div.details {
   flex-wrap: wrap;
 }
 .details input.skill {
-  margin: 0 0.3rem;
+  /* margin: 0 0.3rem; */
   align-self: flex-start;
   font-family: "Manrope", sans-serif;
 }
