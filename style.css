@@ -8,6 +8,7 @@
 div form {
   margin: 0 auto;
   width: 70%;
+  height: auto;
   /* margin: 0 auto; */
   background-color: white;
   padding: 1.2rem 6rem;
@@ -93,6 +94,10 @@ div.details {
   .btn {
     /* width: 14.2rem; */
     margin-left: 19.6rem;
+  }
+  .details span {
+    /* align-self: flex-start; */
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 500px) {
